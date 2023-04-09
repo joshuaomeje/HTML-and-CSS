@@ -1,0 +1,102 @@
+
+@font-face {
+    font-family:'Inter';
+    src: url(Inter-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background: black   ;
+    background:-webkit-linear-gradient(to right, grey, black)
+}
+
+li, a{
+    font-family: Inter;
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.navlinks{
+    list-style: none;
+}
+
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+
+.navlinks li, a{
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover{
+    color: aqua;
+}
+
+button{
+    padding:9px 25px;
+    background-color: rgb(255, 255, 255);
+    border:none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    font-size: 19px;
+    text-decoration: none;
+    font-family: Inter;
+}
+
+button:hover{
+  background-color: rgba(0, 135, 169, 0);
+  color: white;
+}
+
+.logo{
+    width: 200px;
+}
+
+div.container1{
+    display:flex;
+    justify-content: space-around;
+    
+
+}
+
+.main_image1{
+    width: 800px;
+    border-radius:20px;
+    margin-left: 40px;
+}
+
+.main_image2{
+    width: 75%;
+    float: right;
+    margin-right: 50px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+h1{
+    color: white;
+    font-family: Inter;
+}
+
+.main_image3{
+    width: 75%;
+    float: right;
+    margin-right: 50px;
+    border-radius: 20px;
+}
